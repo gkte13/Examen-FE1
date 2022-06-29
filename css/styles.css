@@ -31,6 +31,10 @@ nav ul {
     gap: 1rem;
 }
 
+nav ul:hover{
+    color: pink;
+}
+
 nav ul li a {
     text-decoration: none;
     color: var(--azulMuyOscuro);
@@ -244,7 +248,7 @@ li div p {
     align-items: center;
     box-sizing: border-box;
     margin-top: 3.125rem;
-    height: 13.75rem;
+    height: 14rem;
 }
 
 .ultimoTitulo {
@@ -263,7 +267,7 @@ li div p {
     border-radius: 3rem;
     color: #F3603B;
     border: none;
-
+    cursor: pointer;
 }
 
 .footerSection2 {
@@ -275,10 +279,17 @@ li div p {
     height: 20rem;
 }
 
+
 .redesSociales {
     margin-top: 4.125rem;
     display: flex;
     justify-content: space-between;
+    gap: 12px;
+}
+
+.redesSociales i{
+    font-size: 24px;
+    color: #fff;
 }
 
 .footerSection3 {
@@ -333,121 +344,9 @@ footer p {
 
 }
 
-/*
-
-.goButton{
-background-color:white ;
+.orangebutton:hover, .footerOrangebutton:hover{
+    background-color: pink;
 }
-
-.whatDifferent{
-margin-right: 6.0em;
-}
-
-.seccion3 div{
-display: flex;
-gap: 7em;
-}
-.seccion3 h2{
-text-align: center;
-margin-bottom: 8rem;
-}
-
-.tarjetas img{
-width: 70px;
-height: 70px;
-position: relative;
-top: -35px
-}
-
-
-.seccion1 p{
-font-weight:500 ;
-font-size:1.03rem ;
-margin:28px;
-
-}
-.estadisticas{
-height: 32.81rem;
-width: 36.25rem; ;
-}
-
-
-.footerSecundario h2{
-font-weight:700 ;
-font-size:2rem ;
-color: var(--varianteGrisClaro);
-margin:28px;
-margin-left: 10rem;
-width: 25rem;
-
-
-}
-.whiteButton{
-
-background-color:  #FFFFFF;
-box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
-width: 8.37em;
-height: 2.75em;
-border-radius: 3rem;
-color: #F3603B;
-border: none;
-margin-right: 10rem;
-
-}
-
-footer{
-display:flex;
-justify-content: space-between;
-padding: 4.69rem 9.12rem 4.69rem 10.31rem;
-background-color:#1E1E26;
-margin-bottom:0px;
-height: 15.43rem;
-
-}
-.footerseccion1{
-display: flex;
-flex-direction: column;
-
-
-    
-}
-.footerseccion1 a{
-    margin: 0rem 0rem 5rem 0rem;
-}
-
-.redesSociales{
-    order:1;
-    justify-content: space-between;
-    
-}
-.redesSociales a{
-margin: 0rem 0.2rem;
-};
-
-
-
-
-.footerSeccion2 ul{
-    gap: 2.65em;
-    list-style-type: none;
-    text-decoration: none;
-}
-.footerSeccion2 ul a{
-    list-style-type: none;
-    text-decoration: none;
-    color: var(--varianteGrisClaro);
-    font-weight: 400;
-    font-size: 0.81em;
-}
- 
-
-.footerseccion3{
-    
-}
-
-*/
-
-
 
 body::before {
     background-image: url(../img/bg-tablet-pattern.svg);
@@ -473,4 +372,21 @@ body::after {
     background-size: 100%;
     background-repeat: no-repeat;
     z-index: -1000;
+}
+
+@media (max-width: 375px) {
+    .section1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .article2{
+        order: 1;
+    }
+
+    .section2{
+        display: flex;
+        flex-direction: column;
+        
+    }
 }
