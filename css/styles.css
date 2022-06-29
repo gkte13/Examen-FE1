@@ -18,10 +18,11 @@
 
 
 header {
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 3rem;
+    padding: 5rem;
 }
 
 nav ul {
@@ -34,16 +35,19 @@ nav ul li a {
     text-decoration: none;
     color: var(--azulMuyOscuro);
     justify-content: space-between;
+    font-weight: 500;
+    font size: 1.5rem;
 }
 
 .orangebutton {
     background-color: var(--rojoBrillante);
     color: var(--varianteGrisClaro);
-    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
-    width: 130px;
-    height: 40px;
+    box-shadow: 0px 0.25rem 0.438rem rgba(0, 0, 0, 0.25);
+    width: 9rem;
+    height: 3rem;
     border-radius: 3rem;
     border: none;
+    cursor: pointer;
 }
 
 .section1 {
@@ -52,12 +56,12 @@ nav ul li a {
     justify-content: space-around;
     width: 80%;
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 
 .article1 {
-    max-width: 340px;
-    min-width: 312px;
+    max-width: 31rem;
+    min-width: 19.5rem;
 }
 
 .article1 img {
@@ -66,32 +70,33 @@ nav ul li a {
 
 h1 {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 3.625rem;
     letter-spacing: -0.035em;
     color: var(--azulOscuro);
 }
 
 .section1 p {
-    font-weight: 300;
-    font-size: 1.03rem;
-    margin-top: 28px;
-    margin-bottom: 28px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     line-height: 157.1%;
-    width: 400px;
+    width: 24.063rem;
+    text-align: left;
 }
 
 .section2 {
     display: flex;
     justify-content: space-between;
     gap: 10rem;
-    margin: 0 20em;
+    margin: 0 24rem;
     width: 67%;
     padding-top: 50px;
 }
 
 .section2Article1 {
-    width: 40%;
-    min-width: 312px;
+    width: 35%;
+    min-width: 19.5rem;
     margin-right: 5em;
 }
 
@@ -99,41 +104,56 @@ h1 {
 
 .section2 h2 {
     margin: 0;
-    font-size: 30px;
+    font-size: 2rem;
     color: var(--azulOscuro);
+    width: 27.063rem;
+    margin-bottom: 2.25rem;
+}
 
+.section2 .section2Article1 p{
+    width: 21rem;
 }
 
 .section2Article2 {
-    width: 50%;
-    min-width: 312px;
+    width: 40%;
+    min-width: 19.5rem;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 0.625rem;
+    
+}
+
+.section2Lista{
+    width: 31.25rem;
+    
 }
 
 .section2Lista li {
     display: flex;
     list-style: none;
-    margin-bottom: 18px;
+    margin-bottom: 2.625rem;
+    
 
 }
 
 .section2Conteiner {
-    margin-left: 18px;
-    margin-bottom: 18px;
+    margin-left: 1.125rem;
+    margin-bottom: 1.125rem;
+    
 }
 
 li div p {
-    margin-top: 18px;
+    margin-top: 1.125rem;
+    color: var(--azulGrisáceoOscuro);
+    
 }
 
 
 .section2Lista span {
-    padding: 10px 25px;
+    padding: 0.625rem 1.563rem;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 23px;
-
+    font-size: 1rem;
+    line-height: 1.438rem;
+    
 }
 
 
@@ -150,15 +170,15 @@ li div p {
 }
 
 .pBox {
-    margin-top: 18px;
+    margin-top: 1.125rem;
     padding-left: 6em;
     color: var(--azulGrisáceoOscuro);
 }
 
 .mini-orangebutton {
     background-color: var(--rojoBrillante);
-    width: 69px;
-    height: 43px;
+    width: 4.313rem;
+    height: 3rem;
     border-radius: 1.875rem;
     color: var(--varianteGrisClaro);
     border: none;
@@ -167,37 +187,44 @@ li div p {
 
 
 .section3 {
-    margin-top: 500px;
+    margin-top: 32rem;
     display: flex;
     text-align: center;
     flex-direction: column;
     justify-items: center;
     margin: 4.69rem 0rem 4.69rem 0rem;
+    align-items: center;
+    justify-content: space-around;
 
 }
 
+.section3 article{
+    margin-bottom: 3rem;
+}
 .carrusel {
-    margin-top: 74px;
+    margin-top: 4.625rem;
     display: flex;
-    gap: 5px;
+    gap: 0.313rem;
+    margin-bottom: 3rem;
+    width: 80%;
 }
 
 .cards {
     width: 33%;
-    min-width: 280px;
+    min-width: 17.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: var(--varianteGrisClaro);
     box-sizing: border-box;
-    padding: 30px;
-    margin-top: 20px;
+    padding: 1.875rem;
+    margin-top: 1.25rem;
     text-align: center;
 }
 
 .cards img {
-    margin-top: -100px;
-    margin-bottom: 21px;
+    margin-top: -6.25rem;
+    margin-bottom: 1.313rem;
 }
 
 .carrusel .cards p {
@@ -205,7 +232,7 @@ li div p {
 }
 
 .justif .orangebutton {
-    margin-top: 35px;
+    margin-top: 2rem;
 
 }
 
@@ -213,26 +240,26 @@ li div p {
 .footer1 {
     display: flex;
     background-color: var(--rojoBrillante);
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     box-sizing: border-box;
-    padding: 1rem 3rem;
-    margin-top: 50px;
-    height: 220px;
+    margin-top: 3.125rem;
+    height: 13.75rem;
 }
 
 .ultimoTitulo {
-    font-size: 20px;
+    font-size: 1.5rem;
     max-width: 350px;
     min-width: 310px;
     color: #fff;
+    text-align: left;
 }
 
 .whiteButton {
     background-color: #FFFFFF;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
-    width: 130px;
-    height: 40px;
+    width: 8.125rem;
+    height: 2.5rem;
     border-radius: 3rem;
     color: #F3603B;
     border: none;
@@ -241,15 +268,15 @@ li div p {
 
 .footerSection2 {
     display: flex;
-    padding-top: 56px;
-    padding-left: 170px;
+    padding-top: 5rem;
+    padding-left: 10.625rem;
     background-color: black;
     justify-content: space-between;
-    height: 247px;
+    height: 20rem;
 }
 
 .redesSociales {
-    margin-top: 66px;
+    margin-top: 4.125rem;
     display: flex;
     justify-content: space-between;
 }
@@ -270,18 +297,20 @@ li div p {
 .footerSection3 ul li a {
     color: #fff;
     text-decoration: none;
+    margin-bottom: 1.5rem;
+    font-weight: 100;
 }
 
 .footerSection3:last-child {
-    margin-right: 165px;
+    margin-right: 10.313rem;
     flex-direction: column;
 
 }
 
 .footerOrangebutton {
     background-color: var(--rojoBrillante);
-    width: 63px;
-    height: 42px;
+    width: 4rem;
+    height: 2.625rem;
     border-radius: 1.875rem;
     color: var(--varianteGrisClaro);
     border: none;
@@ -289,17 +318,18 @@ li div p {
 
 .footerForm {
     border-radius: 1.875rem;
-    width: 201px;
-    height: 42px;
-    padding-left: 10px;
+    width: 12.563rem;
+    height: 2.625rem;
+    padding-left: 1.5rem;
+
 }
 
 footer p {
     color: var(--azulGrisáceoOscuro);
     text-align: right;
-    margin-bottom: 53px;
+    margin-bottom: 3.313rem;
     font-weight: 500;
-    font-size: 12.5px;
+    font-size: 0.781rem;
 
 }
 
