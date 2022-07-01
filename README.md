@@ -1,4 +1,6 @@
 ## El reto
+https://docs.google.com/presentation/d/19gNLtprr_DX_4pPqF--bfvb0Sm4iHZUTyXqZ5nCFhAw/edit#slide=id.gdf7c7bc10d_0_17
+
 
 Su desafío es crear esta página de destino y hacer que se parezca lo más posible al diseño.
 
